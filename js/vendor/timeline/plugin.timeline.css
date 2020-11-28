@@ -1,0 +1,154 @@
+
+.timeline .item{
+	font-family: Open Sans, sans-serif;
+	border: 2px solid;
+	background-color: #fafafa !important;
+	overflow: hidden;
+}
+#tl1 .item h2{
+	display: none;
+}
+.timeline .item .post_date{
+	position: relative;
+	margin: 0;
+	font-size: 12px;
+	font-family: inherit;
+	font-weight: 500;
+	display: block;
+	width: auto;
+	height: auto;
+	float: none;
+	padding: 0;
+}
+.timeline .item .post_date span{
+	font-size: 1em;
+	display: inline-block;
+    margin-left: 5px !important;
+    margin-top: 2.5em !important;
+    margin-bottom: 0.9em !important;
+}
+.timeline .con_borderImage{
+	border-bottom: 2px solid;
+}
+.timeline .timeline_items .item .read_more{
+	position: relative !important;
+	display: inline-block  !important;
+	overflow: hidden;
+	text-align: center;
+	font-weight: 500 !important;
+	font-size: 1em !important;
+	line-height: 1.2857em !important;
+	font-family: inherit !important;
+	padding: 1em 3.64em;
+	border-bottom: 1.5px solid rgba(0,0,0,0.25) !important;
+	border-radius: 3px;
+	text-transform: uppercase;
+	margin-top: 1.4em;
+	/* margin-bottom: 1.9em; */
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.timeline .timeline_items .item .read_more:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    margin-right: 0;
+    background: -moz-linear-gradient(top, rrgba(255,255,255,0.2) 0%,rgba(255,255,255,0.05) 50%,rgba(0,0,0,0.05) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.05) 50%,rgba(0,0,0,0.05) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.05) 50%,rgba(0,0,0,0.05) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', endColorstr='#33000000',GradientType=0 );
+}
+.timeline .item_open .t_close, #content .timeline .item_open .t_close {
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 2px 10px;
+    border-radius: 3px;
+}
+
+.timeline h4.t_line_month, #content .timeline h4.t_line_month {
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: 600;
+    margin-top: -40px;
+    color: inherit;
+}
+.timeline.flatLine .t_line_holder, #content .timeline.flatLine .t_line_holder {
+    margin-left: 7%;
+    margin-right: 7%;
+    max-width: 86%;
+    background-size: auto 1px;
+}
+.timeline.flatLine #t_line_left,
+#content .timeline.flatLine #t_line_left {
+	left: 1.19em;
+}
+.timeline.flatLine #t_line_right,
+#content .timeline.flatLine #t_line_right {
+	right: 1.19em;
+}
+.timeline.flatLine #t_line_left:after, #content .timeline.flatLine #t_line_left:after {
+    content: "\e908";
+    font-family: fontello;
+}
+.timeline.flatLine #t_line_right:after, #content .timeline.flatLine #t_line_right:after {
+    content: "\e907";
+    font-family: fontello;
+}
+.timeline.flatLine a.t_line_node:before, #content .timeline.flatLine a.t_line_node:before {
+    content: "";
+    border-radius: 22px;
+    height: 12px;
+    width: 12px;
+    border: 2px solid #d9dbe2;
+    position: absolute;
+    top: 23px;
+    left: 50%;
+    margin: 0 0 0 -8px;
+    background: transparent;
+}
+.timeline.flatLine a.t_line_node:after, #content .timeline.flatLine a.t_line_node:after {
+    content: "";
+    border-radius: 22px;
+    height: 8px;
+    width: 8px;
+    border: 2px solid #ffffff;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    margin: 0 0 0 -6px;
+    background: #dd5555;
+}
+.timeline.flatLine a.t_line_node, #content .timeline.flatLine a.t_line_node {
+    line-height: 25px;
+    font-size: 12px;
+    font-family: inherit;
+    color: inherit;
+}
+.timeline.flatLine .t_node_desc span, #content .timeline.flatLine .t_node_desc span {
+    border-radius: 0;
+    font-size: 14px;
+    padding: 5px 8px;
+    margin-top: -20px;
+}
+.timeline .t_line_m, #content .timeline .t_line_m {
+    /* margin-top: 25px; */
+}
+.timeline.flatLine a.t_line_node.active:after, #content .timeline.flatLine a.t_line_node.active:after {
+     border: 2px solid #fff;
+}
+.timeline .timeline_items_wrapper, #content .timeline .timeline_items_wrapper {
+    margin-top: 15px;
+}
+.timeline.flatLine .t_line_m, #content .timeline.flatLine .t_line_m {
+    border-color: #d9dbe2;
+}
+.timeline .timeline_items {
+}

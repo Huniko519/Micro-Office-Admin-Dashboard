@@ -1,0 +1,311 @@
+.ajde_evcal_calendar.evoFC{
+	border: 2px solid;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+.ajde_evcal_calendar .calendar_header p.evo_month_title{
+	height: 22px ;
+	line-height: 22px ;
+	font-size: 1.428em ;
+	font-family: inherit ;
+	text-transform: capitalize ;
+	font-weight: 600;
+	display: block ;
+	width: 100%;
+	text-align: center;
+	padding: 0 ;
+}
+.ajde_evcal_calendar .calendar_header .evcal_arrows{
+	width: 20px ;
+	height: 20px ;
+	line-height: 20px ;
+	text-align: center ;
+}
+.ajde_evcal_calendar .calendar_header .evcal_arrows .fa{
+	font-size: 14px ;
+	margin: auto ;
+	position: relative ;
+	left: 0 ;
+	top: 0 ;
+	line-height: 20px ;
+	display: inline-block;
+	vertical-align: top;
+}
+#eventon_loadbar_section{
+	border-bottom: none ;
+}
+.eventon_fullcal .eventon_fc_daynames .evo_fc_day{
+	font-size: 0.928rem;
+	border: none ;
+	border-bottom: 2px solid ;
+	border-color: #dddddd ;
+	color: rgba(42,51,66,0.5) ;
+	padding: 3px 10px ;
+	font-weight: 900 ;
+}
+.eventon_fullcal .evo_fc_day{
+	font-size: 0.928rem ;
+	text-transform: lowercase ;
+	font-family: inherit ;
+	font-weight: 500;
+	text-align: left ;
+	padding: 7px 10px ;
+}
+.eventon_fullcal .eventon_fc_days .evo_fc_day{
+	font-size: 1rem ;
+	text-align: right ;
+	min-height: 4.28em ;
+	background-color: #fdfdfd ;
+	border-color: #ebebeb ;
+	border-top: none ;
+	color: #aaadb1 ;
+}
+.eventon_fc_days .evo_fc_day.has_events,
+.eventon_fc_days .evo_fc_day.has_events:hover{
+	background-color: #f7f7f7 ;
+	color: #1ebeb4 ;
+}
+.evoFC_tip{
+	margin-left: 19px;
+	margin-top: -1px;
+	font-size: 12px ;
+	padding: 5px 8px ;
+}
+.evoFC_tip.leftyy {
+    margin-left: -6px;
+}
+.eventon_fc_days .evo_fc_day.has_events span{
+	bottom: 10px ;
+}
+.eventon_fc_days .evo_fc_day.has_events span i{
+	margin-right: 10px ;
+}
+.ajde_evcal_calendar .calendar_header {
+    padding: 2.3rem 2.857rem 0.8em ;
+    margin: 0  ;
+}
+.eventon_fullcal{
+	padding: 0 ;
+}
+.evofc_month {
+    margin: -1px;
+}
+#evcal_list,
+#evcal_list .eventon_list_event p.no_events,
+.eventon_fullcal{
+	border: none ;
+}
+.eventon_fc_days .evo_fc_day.on_focus {
+    border: 1px solid ;
+    border-color: #1EBEB4 ;
+    color: #1EBEB4 ;
+}
+.ajde_evcal_calendar .calendar_header .evcal_arrows {
+    color: #F1F1F1 ;
+    border-color: #F1F1F1 ;
+    background-color: transparent ;
+}
+.ajde_evcal_calendar .calendar_header .evcal_arrows .fa{
+	color: #F1F1F1 ;
+}
+.ajde_evcal_calendar .calendar_header .evcal_arrows:hover {
+    color: #1EBEB4 ;
+    border-color: #1EBEB4 ;
+    background-color: transparent ;
+}
+.ajde_evcal_calendar .calendar_header .evcal_arrows:hover .fa{
+	color: #1EBEB4 ;
+}
+.eventon_fullcal{
+	margin-right: -2.5px ;
+	width: calc(100% + 2.5px) ;
+}
+.eventon_events_list .eventon_list_event .desc_trig {
+    background-color: #fafafa;
+}
+.ajde_evcal_calendar:not(.evoFC) .calendar_header {
+    display: none;
+}
+#evcal_list .eventon_list_event .evcal_desc span.evcal_event_title {
+    padding: 0 ;
+    text-transform: none ;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 1.428rem ;
+}
+.eventon_events_list .eventon_list_event .evcal_list_a {
+    border-left-width: 10px;
+}
+.eventon_events_list .eventon_list_event .evcal_list_a:after{
+	display: none ;
+}
+.ajde_evcal_calendar .eventon_events_list .eventon_list_event{
+	border-radius: 3px;
+}
+.ajde_evcal_calendar .eventon_events_list .eventon_list_event + .eventon_list_event{
+	margin-top: 10px;
+}
+.eventon_events_list .eventon_list_event .evcal_list_a{
+	border-left-width: 10px ;
+	padding: 1.107em 0 ;
+	box-sizing: border-box;
+	min-height: 0 ;
+	border-color: #1ebeb4 ;
+}
+.eventon_events_list .eventon_list_event .evcal_cblock, .evo_pop_body .evcal_cblock{
+	font-family: inherit ;
+	line-height: 5em ;
+	top: 0;
+	padding: 0.45em 0.666em ;
+}
+.eventon_events_list .eventon_list_event .evcal_cblock em, .evo_pop_body .evcal_cblock em{
+	font-weight: 600 ;
+}
+.evcal_cblock .evo_date .start em, .evcal_cblock .evo_date .end em{
+	font-size: 0.857rem ;
+	text-align: center ;
+	margin-top: -1px ;
+}
+.evcal_desc .evcal_desc3 {
+    min-height: 0 ;
+}
+.eventon_events_list .eventon_list_event .evcal_desc .evcal_desc_info, .evo_pop_body .evcal_desc .evcal_desc_info{
+	padding-bottom: 0 ;
+}
+.eventon_events_list .eventon_list_event .evcal_desc, .evo_pop_body .evcal_desc, #page-content p.evcal_desc {
+    padding: 0 15px 3px 5.71rem ;
+}
+.eventon_events_list .eventon_list_event .evcal_eventcard, .evcal_evdata_row, .evorow .tbrow, .dark1, .evo_pop_body {
+    background-color: #fafafa;
+}
+.evcal_evdata_row .evcal_evdata_cell h3, .evo_clik_row .evo_h3, .eventon_events_list .eventon_list_event a {
+    font-family: inherit ;
+    font-weight: 400 ;
+    font-size: 1.42rem ;
+    text-transform: none ;
+    margin-bottom: 0.5em;
+    margin-bottom: 0;
+}
+.evo_metarow_ICS.evcal_evdata_row {
+    padding: 15px ;
+}
+.evcal_event_details .evcal_evdata_cell .eventon_details_shading_bot {
+    background: -webkit-linear-gradient(top, rgba(247, 247, 247,0) 0%,rgb(247, 247, 247) 100%) ;
+    background: -o-linear-gradient(top, rgba(247, 247, 247,0) 0%,rgb(247, 247, 247) 100%) ;
+    background: -ms-linear-gradient(top, rgba(247, 247, 247,0) 0%,rgb(247, 247, 247) 100%) ;
+    background: linear-gradient(to bottom, rgba(247, 247, 247,0) 0%,rgb(247, 247, 247) 100%) ;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00eaeaea', endColorstr='#eaeaea',GradientType=0 ) ;
+}
+.evcal_evdata_row.evcal_event_details .evcal_evdata_cell .eventon_desc_in p {
+    line-height: 1.5em ;
+    margin-top: 1em;
+}
+.fa-clock-o:before {
+    content: "\e808" ;
+    font-family: fontello;
+}
+.evcal_evdata_row .evcal_evdata_icons {
+    text-align: center;
+}
+.event_description .evcal_close{
+	background-color: rgba(0,0,0,0.05) ;
+}
+.event_description .evcal_close:hover{
+	background-color: rgba(0,0,0,0.1) ;
+}
+.ajde_evcal_calendar .calendar_header p.evo_arrows{
+	display: none;
+}
+.eventon_events_list .eventon_list_event .event_description,
+.eventon_events_list .eventon_list_event .event_description, 
+.eventon_events_list .eventon_list_event .event_description .evcal_desc_top {
+    border: none ;
+}
+.eventon_events_list .eventon_list_event .event_description{
+	display: none;
+}
+.evo_sin_page .evcal_eventcard,
+.evo_sin_page .eventon_events_list .eventon_list_event .event_description {
+    display: block;
+}
+#evcal_list .bordb:last-child{
+	border: none ;
+}
+.evcal_evdata_row .evcal_evdata_cell h3.evo_h3, .evcal_evdata_row .evcal_evdata_cell h3.evo_h3 + p {
+    display: inline-block;
+    margin-right: 0.5em;
+    vertical-align: text-bottom;
+}
+.evcal_evdata_row:not(.evcal_close), .evcal_evdata_row.evcal_evrow_sm, .evo_metarow_ICS.evcal_evdata_row {
+    padding: 2em 1.5em ;
+}
+.eventon_details_shading_bot p, .eventon_list_event .eventon_details_shading_bot p {
+    opacity: 1 ;
+}
+.evcal_evdata_row .evcal_evdata_cell p {
+    font: normal 13px Open Sans ;
+}
+#evcal_list .eventon_list_event p.no_events{
+	display: none;
+}
+.ajde_evcal_calendar.evoFC .eventon_fc_days {
+    margin-bottom: -1px ;
+}
+
+.ajde_evcal_calendar.evoFC #evcal_list {
+    border-top: 1px solid #ebebeb ;
+}
+.event_head{
+    background-color: #ddd;
+    margin-top: 2.7em;
+}
+
+.event_head .event_start {
+    text-align:center;
+    float: left;
+    width: 6.42em;
+    padding: 1.9em 0;
+}
+
+.event_head .event_start .day {
+    font-size: 2.07em;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    display:block;
+}
+.event_head .event_start .month {
+    font-size: 0.857em;
+    line-height: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    display:block;
+}
+.event_head .event_decr{
+    padding: 1.7em 1.7em 1.7em 6.42em;
+	margin-bottom: 2.4em;
+}
+.event_head .event_decr .event_title{
+    margin-bottom: 1px;
+}
+body.single-ajde_events .post_info.post_info_bottom.post_info_share {
+    margin-top: 3em;
+}
+.evofc_months_strip,
+.evofc_month{
+	max-width: 100% ;
+	width: 100% ;
+}
+.evo_page_body{
+	max-width: 100% ;;
+}
+.eventon_main_section{
+	padding: 0 0 20px;
+}
+.event_img_1{
+	background-image: url("../../../images/1000.png");
+	height: 400px;	
+}
+.event_img_2{
+	background-image: url("../../../images/1000.png");
+	height: 400px;	
+}

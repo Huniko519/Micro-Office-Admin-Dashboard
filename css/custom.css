@@ -1,0 +1,756 @@
+img.wp-smiley,
+img.emoji {
+	display: inline ;
+	border: none ;
+	box-shadow: none ;
+	height: 1em ;
+	width: 1em ;
+	margin: 0 .07em ;
+	vertical-align: -0.1em ;
+	background: none ;
+	padding: 0 ;
+}
+
+.sidebar_outer_logo .logo_main,
+.top_panel_wrap .logo_main,
+.top_panel_wrap .logo_fixed {
+	height:81px;
+}
+.home-1 .sidebar_outer_logo .logo_main,
+.home-1 .top_panel_wrap .logo_main,
+.home-1 .top_panel_wrap .logo_fixed,
+.home-3 .sidebar_outer_logo .logo_main,
+.home-3 .top_panel_wrap .logo_main,
+.home-3 .top_panel_wrap .logo_fixed {
+	height: 53px;
+}
+#wcbd7693e95ac56596b2a9b7d64247cc54,
+#wca7bea6b5041e89cea9f609c0e36734c6 {
+	width: 100%;
+}
+#wcbd7693e95ac56596b2a9b7d64247cc54 .wcUsersList,
+#wcbd7693e95ac56596b2a9b7d64247cc54 .wcMessages,
+#wca7bea6b5041e89cea9f609c0e36734c6 .wcUsersList,
+#wca7bea6b5041e89cea9f609c0e36734c6 .wcMessages {
+	height: 200px;
+}
+
+
+.sc_align_center {
+	text-align: center;
+}
+
+.hpx_6 {
+	height: 6px;
+} 
+.hpx_7 {
+	height: 7px;
+} 
+.hpx_10 {
+	height: 10px;
+}
+.hpx_14 {
+	height: 14px;
+}
+.hpx_15 {
+	height: 15px;
+}
+.hpx_17 {
+	height: 17px;
+}
+.hpx_30 {
+	height: 30px;
+}
+.hpx_32 {
+	height: 32px;
+}
+.hem_1 {
+	height: 1em
+}
+.hem_1-3 {
+	height: 1.3em
+}
+.hem_1-5 {
+	height: 1.5em
+}
+.hem_1-9 {
+	height: 1.9em
+}
+.hem_2 {
+	height: 2em
+}
+.hem_2-5 {
+	height: 2.5em
+}
+.hem_3-2 {
+	height: 3.2em
+}
+.hem_4-1 {
+	height: 4.1em
+}
+.hem_4-8 {
+	height: 4.8em
+}
+
+.social_twitter,
+.social_twitter .sc_socials_hover {
+	background-image: url(../images/twitter.png);
+}
+.social_pinterest,
+.social_pinterest .sc_socials_hover {
+	background-image: url(../images/pinterest.png);
+}
+.social_gplus,
+.social_gplus .sc_socials_hover {
+	background-image: url(../images/gplus.png);
+}
+.social_facebook,
+.social_facebook .sc_socials_hover {
+	background-image: url(../images/facebook.png);
+}
+
+.fullwidth {
+	width:100%;
+}
+.fullheight {
+	height:100%;
+}
+
+.footer_wrap .sc_list_icon {
+	color:#191315;
+}
+
+.casual_headline {
+	color: #1ebeb4;
+}
+
+.weblator-view-poll {
+	display: none;
+}
+.weblator-hide-poll {
+	display: block;
+}
+
+.widget_number_4 .sc_infobox {
+	background-color:#ffffff;
+}
+.widget_number_4 .sc_infobox span {
+	color:#fdb94b;
+}
+.widget_number_4 .sc_infobox h5 {
+	color:#191315;
+}
+.widget_number_4 .sc_infobox h2 {
+	color:#1ebeb4;
+	font-size:2.857em;
+}
+.widget_number_6 .sc_infobox.sc_infobox_style_regular {
+	margin-bottom:30px;
+	background-color:#ffffff;
+}
+.widget_number_6 .sc_infobox.sc_infobox_style_regular span{
+	color:#1ebeb4;
+}
+.widget_number_6 .sc_infobox.sc_infobox_style_regular h5{
+	color:#191315;
+}
+.widget_number_6 .sc_infobox.sc_infobox_style_regular h5{
+	color:#191315;
+}
+.widget_number_6 .sc_infobox.sc_infobox_style_regular h2{
+	color:#1ebeb4;
+	font-size:2.857em;
+}
+.widget_number_6 .sc_infobox.sc_infobox_style_error span,
+.widget_number_6 .sc_infobox.sc_infobox_style_error h5{
+	color:#ffffff;
+}
+
+.home-1 h2.sc_title_underline,
+.home-2 h2.sc_title_underline,
+.home-3 h2.sc_title_underline {
+	color:#c1c2c6;
+	font-weight:400;
+	font-size:2.857em;
+}
+.home-1 .width-control {
+	width:900px
+}
+.home-1 .sc_skills_count {
+	background-color:#1EBEB4; 
+	border-color:#1EBEB4
+}
+.home-1 .width-control {
+	width:900px
+}
+.home-1 .bs-chart-container {
+	display: block; 
+	width: 100%;
+}
+.home-3 .bar_1,
+.home-2 .bar_1,
+.home-1 .bar_1 {
+	background-color: rgb(30, 190, 180); 
+	color: rgb(255, 255, 255); 
+	font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; 
+	font-style: normal;
+	width: 40.404%;
+}
+.home-3 .bar_2,
+.home-2 .bar_2,
+.home-1 .bar_2 {
+	background-color: rgb(238, 87, 68);
+	color: rgb(255, 255, 255);
+	font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px;
+	font-style: normal; 
+	width: 36.3636%;
+}
+.home-3 .bar_3,
+.home-2 .bar_3,
+.home-1 .bar_3 {
+	background-color: rgb(253, 185, 75); 
+	color: rgb(255, 255, 255); 
+	font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; 
+	font-style: normal; 
+	width: 23.2323%;
+}
+.home-1 h2.sc_title_regular,
+.home-2 h2.sc_title_regular,
+.home-3 h2.sc_title_regular {
+	color:#1ebeb4;
+}
+
+
+.home-2 .sc_skills_columns .sc_skills_column:nth-child(1) .sc_skills_item,
+.home-2 .sc_skills_columns .sc_skills_column:nth-child(4) .sc_skills_item {
+	background-color: rgba(30,190,180,1);
+}
+.home-2 .sc_skills_columns .sc_skills_column:nth-child(2) .sc_skills_item {
+	background-color:rgba(253,185,75,0.8);
+}
+.home-2 .sc_skills_columns .sc_skills_column:nth-child(3) .sc_skills_item {
+	background-color:rgba(238,87,68,0.8);
+}
+
+
+.home-2 .sc_skills_columns .sc_skills_column:nth-child(1) .sc_skills_info,
+.home-2 .sc_skills_columns .sc_skills_column:nth-child(1) .sc_skills_count,
+.home-2 .sc_skills_columns .sc_skills_column:nth-child(4) .sc_skills_info,
+.home-2 .sc_skills_columns .sc_skills_column:nth-child(4) .sc_skills_count {
+	background-color: #14a29a;
+}
+.home-2 .sc_skills_columns .sc_skills_column:nth-child(2) .sc_skills_info,
+.home-2 .sc_skills_columns .sc_skills_column:nth-child(2) .sc_skills_count {
+	background-color:#fdb94b;
+}
+.home-2 .sc_skills_columns .sc_skills_column:nth-child(3) .sc_skills_info,
+.home-2 .sc_skills_columns .sc_skills_column:nth-child(3) .sc_skills_count {
+	background-color:#ee5744;
+}
+
+.home-2 .evofc_title_tip {
+	display:none;
+}
+
+.home-3 .post_format_standard .perf_title {
+	margin-bottom:0.5em;
+	color:#c1c2c6;
+	font-weight:400;
+	font-size:2.857em;
+}
+.home-3 .sc_graph {
+	width:100%;
+	height:380px;
+}
+.home-3 .data {
+	display: none;
+}
+
+.ceo-pg .sc_video_frame {
+	width: 100%;
+}
+.ceo-pg .ceo_detail h2 {
+	margin-bottom:0.6em;
+	color:#1ebeb4;
+}
+.team-pg .icon-mail-empty span,
+.ceo-pg .icon-mail-empty span {
+	color: #1ebeb4;
+}
+.leaders-pg .sc_column_item_2 {
+	min-height: 200px;
+}
+.leaders-pg .sc_column_item_2 .sc_section_block {
+	background-image:url(../images/1841x417.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100%;
+}
+.team-pg .chief_block .sc_section_content,
+.leaders-pg .sc_column_item_2 .sc_section_content {
+	height:100%;
+}
+.leaders-pg .team_bg {
+	background-color:#f7f7f7;
+}
+.leaders-pg .sc_team,
+.team-pg .sc_team {
+	width:100%;
+}
+.team-pg .single_member {
+	margin-bottom:0.6em;
+	color:#1ebeb4;
+}
+.team-pg .chief_block {
+	min-height: 200px;
+}
+.team-pg .chief_block .sc_section_block {
+	background-image:url(../images/1841x417.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100%;
+}
+
+.blog-standard-pg .sc_audio_thumb {
+	background-image: url(../images/1510x845.png)
+}
+.blog-standard-pg .swiper-wrapper {
+	height:845px;
+}
+.blog-standard-pg .swiper-wrapper .sw_slide_1 {
+	background-image:url(../images/1510x845.png);
+	width:1510px;
+	height:845px;
+}
+.blog-standard-pg .swiper-wrapper .sw_slide_2 {
+	background-image:url(../images/1510x845.png);
+	width:1510px;
+	height:845px;
+}
+.blog-standard-pg .swiper-wrapper .sw_slide_3 {
+	background-image:url(../images/1510x845.png);
+	width:1510px;
+	height:845px;
+}
+
+.blog-masonry-pg .swiper-wrapper .sw_slide_1 {
+	background-image:url(../images/1000.png);
+	width:510px;
+	height:450px;
+}
+.blog-masonry-pg .swiper-wrapper .sw_slide_2 {
+	background-image:url(../images/1000.png);
+	width:510px;
+	height:450px;
+}
+.blog-masonry-pg .swiper-wrapper .sw_slide_3 {
+	background-image:url(../images/1000.png);
+	width:510px;
+	height:450px;
+}
+.blog-masonry-pg .swiper-wrapper {
+	height:450px;
+}
+.blog-masonry-pg .post_format_audio .post_media {
+	background-image:url(../images/1000.png);
+}
+.blog-masonry-pg .sc_audio_thumb {
+	background-image: url(../images/1000.png);
+}
+.blog-masonry-pg .sc_button_boxed {
+	width:160px;
+}
+
+.tutor-pg .sc_button_boxed {
+	width:180px;
+}
+
+.resumes-pg h3 {
+	color:#22cabf;
+}
+.resumes-pg .sc_icon {
+	margin-top:3px;
+	margin-right:14px;
+	font-size:2.5em;
+	line-height: 1em;
+	color:#fdc467;
+}
+.resumes-pg .sc_line_style_solid {
+	margin-top:1em;
+	margin-bottom:1em;
+	border-top-style:solid;
+}
+
+.storage-pg .sc_line_style_solid {
+	border-top-style:solid;
+}
+.storage-pg .sc_icon {
+	margin-top:0.45em;
+	margin-right:0px;
+	font-size:3.4em; 
+	line-height: 1em;
+	color:#fdbc53;
+}
+.storage-pg h3.sc_title_regular {
+	color:#22cabf;
+}
+.storage-pg h6.sc_title_regular.odd {
+	margin-bottom:5px;
+	color:#aaadb1;
+	font-size:12px;
+}
+.storage-pg h6.sc_title_regular.even {
+	margin-bottom:1px;
+}
+.storage-pg .sc_section_block {
+	background-color:#f7f7f7;
+}
+
+.typo-pg .sc_image_shape_square {
+	width:320px;
+}
+.typo-pg .sc_table {
+	width:100%;
+}
+.typo-pg .sc_button_grey {
+	margin-right:20px;
+	margin-bottom:20px;
+	color:#aaadb1;
+	background-color:#f4f5f7;
+}
+.typo-pg .sc_button_black {
+	margin-right:20px;
+	margin-bottom:20px;
+	background-color:#191315;
+}
+.typo-pg .sc_button_green {
+	margin-right:20px;
+	margin-bottom:20px;
+}
+
+.sc_pg .sw_slide_1 {
+	background-image:url(../images/1914x1029.png);
+	width:100%;
+}
+.sc_pg .sw_slide_2 {
+	background-image:url(../images/1914x1029.png);
+	width:100%;
+}
+.sc_pg .sw_slide_3 {
+	background-image:url(../images/1914x1029.png);
+	width:100%;
+}
+.sc_pg .sc_audio_thumb {
+	background-image: url(../images/1000.png);
+}
+.sc_pg .sc_googlemap {
+	width:100%;
+	height:570px;
+}
+.sc_pg  #sc_skills_diagram_1493807788 .sc_skills_count.first{
+	background-color:#1EBEB4; border-color:#1EBEB4
+}
+.sc_pg  #sc_skills_diagram_1493807788 .sc_skills_count.second{
+	background-color:#ee5744; border-color:#ee5744
+}
+.sc_pg  #sc_skills_diagram_1493807788 .sc_skills_count.third{
+	background-color:#fdb94b; border-color:#fdb94b
+}
+
+.sc_pg  #sc_skills_diagram_2041508851 .sc_skills_column.first .sc_skills_item{
+	background-color:rgba(253,185,75,0.8);
+}
+.sc_pg  #sc_skills_diagram_2041508851 .sc_skills_column.second .sc_skills_item{
+	background-color:rgba(30,190,180,0.8);
+}
+.sc_pg  #sc_skills_diagram_2041508851 .sc_skills_column.third .sc_skills_item{
+	background-color:rgba(238,87,68,0.8)
+}
+
+.sc_pg  #sc_skills_diagram_2041508851 .sc_skills_column.first .sc_skills_info{
+	background-color:#fdb94b;
+}
+.sc_pg  #sc_skills_diagram_2041508851 .sc_skills_column.second .sc_skills_info{
+	background-color:#1EBEB4;
+}
+.sc_pg  #sc_skills_diagram_2041508851 .sc_skills_column.third .sc_skills_info{
+	background-color:#ee5744;
+}
+
+.sc_pg  #sc_skills_diagram_2041508851 .sc_skills_column.first .sc_skills_count{
+	background-color:#fdb94b;
+}
+.sc_pg  #sc_skills_diagram_2041508851 .sc_skills_column.second .sc_skills_count{
+	background-color:#1EBEB4;
+}
+.sc_pg  #sc_skills_diagram_2041508851 .sc_skills_column.third .sc_skills_count{
+	background-color:#ee5744;
+}
+
+.event_pg .desc_trig {
+	border-color: #206177;
+}
+.event_pg .event_description {
+	display:block
+}
+.event_pg .evo_metarow_fimg {
+	background-image: url("../images/1900x1300.png")
+}
+
+.sc_icon.color_orange{
+	background-color:#fdb94b;border-color:#fdb94b;
+}
+.custom_section_1{
+	min-height: 200px; 
+	background-image:url(../images/1841x417.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100%;
+}
+.custom_section_2{
+	background-color:#f7f7f7;
+}
+.custom_text_1{
+	margin-bottom:0px;text-align:center;
+}
+.sc_button.sc_button_style_filled.custom_button_1{
+	margin-right:10px;
+	margin-bottom:10px;
+	width:12em;
+	background-color:#2e2e2e;
+}
+.sc_button.sc_button_style_filled.custom_button_2{
+	margin-bottom:10px;
+	width:12em;
+	background-color:#2e2e2e;
+}
+
+/* widgets */
+.textwidget .sc_infobox.sc_infobox_style_regular{
+	background-color:#ffffff;
+}
+.textwidget .sc_infobox.sc_infobox_style_regular .sc_icon{
+	color:#fdb94b;
+}
+.textwidget .sc_infobox.sc_infobox_style_regular h5{
+	text-align:center;color:#191315;
+}
+.textwidget .sc_infobox.sc_infobox_style_regular h2{
+	text-align:center;color:#1ebeb4;font-size:2.857em;
+}
+
+.textwidget .sc_infobox.sc_infobox_style_regular.style_2{
+	margin-bottom:30px;background-color:#ffffff;
+}
+.textwidget .sc_infobox.sc_infobox_style_regular.style_2 h5{
+	text-align:center;color:#191315;
+}
+.textwidget .sc_infobox.sc_infobox_style_regular.style_2 h2{
+	text-align:center;color:#1ebeb4;font-size:2.857em;
+}
+
+.textwidget .sc_infobox.sc_infobox_style_error .sc_icon{
+	color:#ffffff;
+}
+.textwidget .sc_infobox.sc_infobox_style_error h5{
+	text-align:center;color:#ffffff;
+}
+.textwidget .sc_infobox.sc_infobox_style_error p{
+	 text-align: center;
+}
+
+/* page Tests */
+.wpProQuiz_content .wpProQuiz_questionListItem > span,
+.wpProQuiz_content .wpProQuiz_reviewQuestion > div,
+.wpProQuiz_content .wpProQuiz_question_page,
+.wpProQuiz_content .wpProQuiz_listItem,
+.wpProQuiz_content .wpProQuiz_quiz,
+.wpProQuiz_content .wpProQuiz_quizAnker,
+.wpProQuiz_content .wpProQuiz_reviewDiv,
+.wpProQuiz_content .wpProQuiz_resultsList li,
+.wpProQuiz_content .wpProQuiz_catOverview,
+.wpProQuiz_content .wpProQuiz_time_limit_expired,
+.wpProQuiz_content .wpProQuiz_results,
+.wpProQuiz_content .wpProQuiz_prerequisite,
+.wpProQuiz_content .wpProQuiz_startOnlyRegisteredUser,
+.wpProQuiz_content .wpProQuiz_lock,
+.wpProQuiz_content .wpProQuiz_loadQuiz,
+.wpProQuiz_content .wpProQuiz_time_limit,
+.wpProQuiz_content .wpProQuiz_infopage,
+.wpProQuiz_content .wpProQuiz_response,
+.wpProQuiz_content .wpProQuiz_correct,
+.wpProQuiz_content .wpProQuiz_incorrect,
+.wpProQuiz_content .wpProQuiz_checkPage{
+	display: none;
+}
+.wpProQuiz_content .wpProQuiz_box{
+	margin-bottom: 20px;
+}
+.wpProQuiz_content .clear{
+	clear: both;
+}
+.wpProQuiz_content .marg_1{
+	margin: 10px 0px;
+}
+.wpProQuiz_content .marg_2{
+	margin-bottom: 20px;
+}
+.wpProQuiz_content .marg_3{
+	margin-top: 10px;
+}
+.wpProQuiz_content .wpProQuiz_question{
+	margin:  10px 0 0 0;
+}
+.wpProQuiz_reviewLegend > ul > li:first-child .wpProQuiz_reviewColor{
+	background-color: #6CA54C;
+}
+.wpProQuiz_reviewLegend > ul > li:nth-child(2) .wpProQuiz_reviewColor{
+	background-color: #FFB800;
+}
+.wpProQuiz_button.wpProQuiz_QuestionButton.first{
+	float: left ; 
+	margin-right: 10px ; 
+	display: none;
+}
+.wpProQuiz_button.wpProQuiz_QuestionButton.second{
+	float: right ; 
+	margin-right: 10px ; 
+	display: none;
+}
+.wpProQuiz_button.wpProQuiz_QuestionButton.second{
+	float: right ; 
+	margin-right: 10px ; 
+	display: none;
+}
+.wpProQuiz_button.wpProQuiz_QuestionButton.third{
+	float: right; 
+	display: none;
+}
+.wpProQuiz_button.wpProQuiz_QuestionButton.fourth{
+	float: left; 
+	display: none;
+}
+.wpProQuiz_button.wpProQuiz_QuestionButton.fifth{
+	float: right; 
+	display: none;
+}
+.wpProQuiz_button.wpProQuiz_QuestionButton.sixth{
+	float: left;
+}
+
+
+/* colors */
+.color_blue,
+h4 a.color_blue,
+.color_blue.sc_icon,
+.color_blue.sc_title{
+	color:#1ebeb4;	
+}
+
+/* page infographic */
+.sc_islands_item.sc_item_type_1{
+	color:#ee5744;
+	left:0%;
+}
+.sc_islands_item.sc_item_type_2{
+	color:#fdb94b;
+	left:7%;
+}
+.sc_islands_item.sc_item_type_3{
+	color:#1ebeb4;
+	left:33%;
+}
+.sc_islands_item.sc_item_type_4{
+	color:#2a3342;
+	right:0%;
+}
+#sc_skills_diagram_591 .sc_skills_count.first{
+	background-color:#1EBEB4; border-color:#1EBEB4;
+}
+#sc_skills_diagram_591 .sc_skills_count.second{
+	background-color:#ee5744; border-color:#ee5744;
+}
+#sc_skills_diagram_591 .sc_skills_count.third{
+	background-color:#fdb94b; border-color:#fdb94b;
+}
+
+#sc_skills_diagram_919 .sc_skills_style_1.first{
+	height: 145px;background-color:rgba(253,185,75,0.8);
+}
+#sc_skills_diagram_919 .sc_skills_style_1.second{
+	height: 145px;background-color:rgba(253,185,75,0.8);
+}
+#sc_skills_diagram_919 .sc_skills_style_1.third{
+	height: 145px;background-color:rgba(253,185,75,0.8);
+}
+
+#sc_skills_diagram_919 .sc_skills_style_1.first .sc_skills_count{
+	background-color:#fdb94b; border-color:#fdb94b
+}
+#sc_skills_diagram_919 .sc_skills_style_1.second .sc_skills_count{
+	background-color:#fdb94b; border-color:#fdb94b
+}
+#sc_skills_diagram_919 .sc_skills_style_1.third .sc_skills_count{
+	background-color:#fdb94b; border-color:#fdb94b
+}
+
+.sc_icons_skills .sc_icons_content.first{
+	font-size:2.5em;
+}
+.sc_icons_skills .sc_icons_content.second{
+	font-size:3em;
+}
+
+#sc_skills_diagram_1971732297 .sc_skills_count.first{
+	background-color:#1EBEB4;
+}
+
+#sc_skills_diagram_1971113708 .sc_skills_legend_marker.first{
+	background-color:#1EBEB4
+}
+#sc_skills_diagram_1971113708 .sc_skills_legend_marker.second{
+	background-color:#fdc75c
+}
+#sc_skills_diagram_1971113708 .sc_skills_legend_marker.third{
+	background-color:#ef5945
+}
+
+#sc_skills_diagram_194948490_pie .sc_skills_datam
+#sc_skills_diagram_1971113708_pie .sc_skills_data{
+	display: none;
+}
+
+#sc_skills_diagram_194948490 .sc_skills_legend_marker.first{
+	background-color:#1EBEB4
+}
+#sc_skills_diagram_194948490 .sc_skills_legend_marker.second{
+	background-color:#fdc75c
+}
+#sc_skills_diagram_194948490 .sc_skills_legend_marker.third{
+	background-color:#ef5945
+}
+
+#_ch_251 .sc_chart_item_value{
+	color: #2A3342;
+}
+
+#sc_graph_194948490{
+	width:100%;
+	height:220px;
+}
+#sc_graph_194948491 ul.data,
+#sc_graph_194948490 ul.data{
+	display: none;
+}
+
+
+/* page About */
+#canvas__ch_890 .sc_chart_item_value{
+	color: #ee5744;
+}
+#canvas__ch_54 .sc_chart_item_value{
+	color: #22cabf;
+}
+#canvas__ch_693 .sc_chart_item_value{
+	color: #fdb94b;
+}

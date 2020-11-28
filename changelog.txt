@@ -1,0 +1,6 @@
+Version 1.1
+	* Documentation updated
+	* Cumulative CSS update
+	
+Version 1.0
+	Release

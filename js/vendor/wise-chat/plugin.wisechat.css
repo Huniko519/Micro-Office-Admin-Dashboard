@@ -1,0 +1,77 @@
+.wcContainer{
+    position: relative;
+}
+
+.wcContainer .wcMessages {
+    min-height: 400px;
+    border-width: 2px;
+    border-radius: 3px;
+    padding: 1.6em 1.8em;
+    /* padding-bottom: 77px; */
+    background-color: #fafafa;
+}
+
+.wcContainer .wcControls {
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    box-sizing: border-box;
+    padding: 15px 8px 8px;
+    background-color: #fafafa;
+    border-width: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #f1f1f1;
+}
+
+.wcControlsButtonsIncluded a.wcToolButton,
+.wcContainer .wcControls .wcPoweredBy {
+    display: none;
+}
+.wcContainer input.wcInput,
+.wcContainer input[type="text"].wcInput,
+.wcContainer input[type="text"].wcInput:focus{
+    background-color: #fff;
+}
+.wcMessageTimeDate {
+    display: none;
+}
+.wcMessage{
+    position:relative;
+    margin-bottom: 20px;
+}
+.wcMessageContent{
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    background-color: #e8e8e8;
+    padding: 3px 20px;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+.wcMessageContent:before{
+    content: '';
+    position: absolute;
+    top: -14px;
+    border: 7px solid;
+    border-color: transparent transparent #e8e8e8 transparent;
+}
+.wcMessageTimeHour{
+    position:absolute;
+    top: 17px;
+    font-style: italic;
+    color: #aaadb1;
+}
+.wcMessageUser{
+    display: block;
+    padding-bottom: 25px;
+}
+.wcMessages .wcMessage:nth-child(odd) {
+    text-align: right;
+}
+.wcMessages .wcMessage:nth-child(odd) .wcMessageTimeHour {
+    right: 0;
+}
+.wcMessages .wcMessage:nth-child(odd) .wcMessageContent:before {
+    right: 20px;
+}

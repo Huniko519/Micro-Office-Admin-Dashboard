@@ -1,0 +1,282 @@
+/**
+ * Wise Chat core CSS.
+ *
+ * @author Marcin Ławrowski <marcin@kaine.pl>
+ * @link http://kaine.pl/projects/wp-plugins/wise-chat
+ */
+
+/* Commons: */
+.wcContainer * {
+	-moz-box-sizing: border-box; box-sizing: border-box; color: #111;
+}
+
+.wcContainer a {
+	box-shadow: none;
+}
+
+.wcContainer .wcDebug {
+    height: 200px; width: 100%; overflow: scroll; border: 2px solid #f00; padding: 5px;
+}
+
+.wcContainer .wcIcon {
+	border-radius: none; box-shadow: none; border: none; display: inline-block; vertical-align: middle; margin-bottom: 2px;
+}
+
+.wcMessage .wcAdminAction {
+	border: 1px solid transparent; padding: 2px;
+}
+
+.wcMessage .wcAdminAction:hover {
+	border: 1px solid #dfdfdf;
+}
+
+.wcMessage .wcEmoticon {
+	border-radius: none; box-shadow: none; border: none; display: inline-block; vertical-align: middle; margin-bottom: 4px;
+}
+
+.wcMessage .wcImage {
+	border-radius: none; box-shadow: none; border: none; display: inline-block; vertical-align: middle; margin-bottom: 4px;
+}
+
+.wcMessage .wcVideoPlayer {
+	border-radius: none; box-shadow: none; border: none; display: inline-block; vertical-align: middle; margin-bottom: 4px;
+}
+
+.wcContainer .wcMessages .wcMessage .wcMessageContent {
+	overflow-wrap: break-word; word-wrap: break-word; -ms-word-break: break-all;-ms-hyphens: auto; -moz-hyphens: auto; -webkit-hyphens: auto; hyphens: auto;
+}
+
+.wcWidth300 .wcMessageContent {
+	display: block; border-bottom: 1px solid #f3f3f3; margin-bottom: 5px; padding-bottom: 5px;
+}
+
+.wcContainer .wcClear {
+	clear: both; line-height: 0.1%; font-size: 0.1%; height: 0.1%;
+}
+
+/* Container: */
+.wcContainer {
+	width: 100%;
+}
+
+.wcContainer .wcPoweredBy {
+	text-align: right; font-size: 0.8em; margin-top: 2px; padding: 0px;
+}
+
+.wcContainer .wcPoweredBy a {
+	font-size: 1em;
+}
+
+.wcContainer .wcControls .wcPoweredBy {
+	padding: 0px;
+}
+
+.wcContainer .wcWindowContent {
+	padding: 10px;
+}
+
+/* Messages list: */
+.wcContainer .wcMessages {
+	width: 100%; height: 200px; overflow: auto;
+	border: 1px solid #dfdfdf; background-color: #fff; margin: 0px; padding: 0px 5px;
+	-webkit-overflow-scrolling: touch;
+}
+
+/* Users list: */
+.wcUsersListIncluded .wcMessages {
+	float: left; width: 70%; overflow: auto;
+}
+
+.wcUsersListIncluded .wcUsersList {
+	height: 200px; border: 1px solid #dfdfdf; overflow: auto; background-color: #fff; margin: 0px; padding: 0px 5px;
+	-webkit-overflow-scrolling: touch;
+}
+
+.wcContainer .wcUsersCounter {
+	float: right; font-size: 80%;
+}
+
+.wcContainer .wcUsersCounter span {
+	font-weight: bold;
+}
+
+.wcErrorMessage {
+	color: #ff0000;
+}
+
+.wcCurrentUserMessage .wcMessageUser {
+	font-weight: bold;
+}
+
+.wcUsersList .wcCurrentUser, .wcUsersList .wcCurrentUser a {
+	font-weight: bold;
+}
+
+.wcContainer input.wcInput, .wcContainer textarea.wcInput, .wcContainer progress.wcMainProgressBar {
+	width: 100%; font-size: 1em;
+}
+
+/* Progress bar cross-browser styling */
+.wcContainer progress, .wcContainer progress[role]  {
+	height: 4px; margin-top: 1px; line-height: 4px; display: block; appearance: none; -moz-appearance: none;
+	-webkit-appearance: none; border: none; background-size: auto;
+}
+
+.wcContainer progress[role]:after {
+	background-image: none;
+}
+
+.wcContainer progress[role] strong {
+	display: none;
+}
+
+/* Progress bar - background */
+.wcContainer progress, .wcContainer progress[role][aria-valuenow] {
+   background: #ccc;
+}
+
+.wcContainer progress::-webkit-progress-bar {
+    background: #ccc;
+}
+
+/* Progress bar - foreground */
+.wcContainer progress {
+    color: #5789FF;
+}
+
+.wcContainer progress::-moz-progress-bar { 
+    background: #5789FF;   
+}
+
+.wcContainer progress::-webkit-progress-value {
+    background: #5789FF;
+}
+
+.wcContainer progress[aria-valuenow]:before  {
+    background: #5789FF;
+}
+
+.wcCustomizations a {
+	font-size: 80%;
+}
+
+.wcUserName {
+	margin-right: 5px; max-width: 200px;
+}
+
+.wcControlsButtonsIncluded .wcCurrentUserName {
+	display: block;
+}
+
+.wcControlsButtonsIncluded .wcInputContainer {
+	overflow: hidden; padding-right: 5px; 
+}
+
+.wcControlsButtonsIncluded input.wcInput, .wcControlsButtonsIncluded textarea.wcInput {
+	width: 100%;
+}
+
+.wcControlsButtonsIncluded input.wcSubmitButton {
+	float: right;
+}
+
+/* Tool buttons */
+.wcControlsButtonsIncluded a.wcToolButton {
+	float: right; margin-right: 3px; cursor: pointer; display: inline-block; width: 38px; height: 32px; border: 1px solid transparent; padding: 0px 3px;
+	position: relative; overflow: hidden;
+}
+
+.wcControlsButtonsIncluded a.wcToolButton:hover {
+	border: 1px solid #dfdfdf; cursor: pointer;
+}
+
+.wcControlsButtonsIncluded a.wcToolButton input {
+	position: absolute; top: 0; bottom: 0; left: 0; right: 0; opacity: 0.001; cursor: pointer; z-index: 1000;
+}
+
+/* Attachments */
+.wcControlsButtonsIncluded a.wcAddImageAttachment {
+	background:  url('../gfx/icons/camera.png') center center no-repeat; width: 32px;
+}
+
+.wcControlsButtonsIncluded a.wcAddFileAttachment {
+	background:  url('../gfx/icons/attach.png') center center no-repeat; width: 32px;
+}
+
+.wcControlsButtonsIncluded a.wcInsertEmoticonButton {
+    background:  url('../../../images/icons/emoticon.png') center center no-repeat; width: 32px;
+}
+
+.wcMessageAttachments {
+	margin-top: 2px;
+}
+
+.wcMessageAttachments .wcImageUploadPreview {
+	max-width: 70px; max-height: 50px; cursor: pointer; display: inline-block; vertical-align: middle; margin-right: 3px;
+}
+
+.wcMessageAttachments a.wcAttachmentClear {
+	border: 1px solid transparent;
+}
+
+.wcMessageAttachments a.wcAttachmentClear:hover {
+	border: 1px solid #dfdfdf;
+}
+
+/* Image viewer: */
+.wcImagePreviewFade { 
+    display: none; position: fixed; top: 0%; left: 0%; width: 100%; height: 100%; background-color: #000; z-index:1001; -moz-opacity: 0.7; opacity:.70; filter: alpha(opacity=70);
+}
+
+.wcImagePreview {
+    display: none; position: absolute; left: 50%; top: 50%; padding: 0px; border: none; background: transparent; z-index:1002; overflow:visible;
+}
+
+.wcImagePreview img {
+	border-radius: none; box-shadow: none; border: none;
+}
+
+.wcCustomizations label {
+	display: inline;
+}
+
+
+.wcCustomizations input[type="checkbox"] {
+	vertical-align: middle;
+	width: 15px;
+	height: 15px;
+}
+
+.wcContainer .wcCustomizationsPanel .wcCustomizationsProperty:not(:last-child) {
+	margin-bottom: 4px;
+}
+
+.wcContainer .wcChannelProtectionHint {
+	margin: 10px 0px;
+}
+
+.wcContainer .wcChannelAuthorizationError {
+	margin: 10px 0px;
+	color: #ff0000;
+}
+
+.colorPicker-palette {
+	width: 216px; border: 1px solid #dfdfdf; border-radius: 0px;
+}
+
+.wcEmoticonsLayer {
+	width: 185px; height: auto; border: 1px solid #dfdfdf;
+	position: absolute; background-color: #EFEFEF; padding: 2px; z-index: 9999;
+}
+
+.wcEmoticonsLayer a {
+    display: inline-block; padding: 2px; border: 1px solid #EFEFEF;
+}
+
+.wcEmoticonsLayer a:hover {
+    border: 1px solid #dfdfdf;
+}
+
+.wcEmoticonsLayer a img {
+    border: none; border-radius: 0px; margin: 0px; padding: 0px;
+}
